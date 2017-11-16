@@ -126,7 +126,6 @@ unsigned int Robot_Input() {
 }
 
 void Robot_Output(unsigned int output) {
-  /*
   switch (output) {
     case 0:   // På Banen
       venstreMotor->setSpeed(80);
@@ -153,7 +152,7 @@ void Robot_Output(unsigned int output) {
       hoyreMotor->setSpeed(80);
       break;
   }
-  forover();*/
+  forover();
 }
 
 void LesFraSensorer() {
